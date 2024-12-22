@@ -1,0 +1,1 @@
+This example demonstrates a common pitfall when working with mutable variables and functions in F#.  The function `addOne` receives a copy of the value of `x`, not a reference.  Modifying `x` later doesn't affect the value of `y`.  The solution shows how to achieve the desired behavior using mutable references or ref cells.
